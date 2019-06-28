@@ -6,8 +6,8 @@ namespace ColorGenerator
 {
     public class BaseColor
     {
-       public List<string> colorList = new List<string>();
-       public static List<string> descriptorName = new List<string>();
+       public static List<string> colorList = new List<string>();
+       public List<string> descriptorName = new List<string>();
 
     }
 }

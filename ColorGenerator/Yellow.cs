@@ -6,19 +6,33 @@ namespace ColorGenerator
 {
     public class Yellow
     {
-        List<string> yellowColorList = new List<string>
-            {
+        public static List<string> ColorList = new List<string>
+            {//things that are yellow
             "Gold",
             "Daffodil",
             "Butter",
             "Flaxen",
             "Lemon",
-            "Mustard"
+            "Mustard",
+           "Saffron",
+           "Melted Butter",
+           "Brick Road",
+            "Lights",
+            "Buttered Rum",
+            "Beeswax",
+            "Laser Beam",
+            "Straw",
+            "Topaz",
+            "Bumblebee",
+            "Butterscotch",
+            "Corn",
+            "Highlighter",
+            "Honey"
         };
 
-        List<string> descriptorNameYellow = new List<string>
-        {
-            "Medallion", "Blond"
+       public static List<string> descriptorName = new List<string>
+        {//descriptions of the color yellow
+            "Medallion", "Blond", "Gamboge", "Chickadee", "Maize", "Mosaic", "Ocher","Old", "Pale", "Saffron", "Fry"
         };
     }
 }
